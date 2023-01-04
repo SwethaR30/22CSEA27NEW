@@ -1,0 +1,64 @@
+#biggest of three no.
+num1=int(input('enter first number'))
+num2=int(input('enter second number'))
+num3=int(input('enter third number'))
+if(num1>num2 and num1>num3):
+   print(num1,"is the biggest num")
+elif(num2>num3 and num2>num1):
+   print(num2,'is the biggest number')
+else:
+   print(num3,'is the biggest number')
+output: first no= 3 second no=4 third no=1
+biggest no=4
+------------------------------------------------------------------------------------------------------------------------------------------
+#odd or even
+a=int(input('enter a number'))
+if(a%2==0):
+    print('even number')
+else:
+    print('odd number')
+-----------------------------------------------------------------------------------------------------------------------------------
+
+#grade analysis
+mark1=int(input('enter mark'))
+mark2=int(input('enter mark'))
+mark3=int(input('enter mark'))
+total=mark1+mark2+mark3
+avg=total/3
+if(avg>90):
+    print('o grade')
+elif(avg>80 and avg<90):
+    print('A+ grade')
+elif(avg>70 and avg<80):
+    print('A grade')
+elif(avg>60 and avg<70):
+    print('B+ grade')
+elif(avg>50 and avg<60):
+    print('B grade')
+elif(avg>50):
+    print('U grade')
+
+#voting eligibility
+n=int(input('enter age'))
+if(n>=18):
+    print('eligible for voting')
+else:
+    print('not aligible for voting') 
+
+#upper or lower case
+ch=input('enter a character')
+if(ch>='A'and ch<='Z'):
+    ch='U'
+    print(ch)
+elif(ch>='a' and ch<='z'):
+    ch='l'
+    print(ch)
+#quadratic equation
+import cmath
+a=float(input('enter a no'))
+b=float(input('enter a no'))
+c=float(input('enter a no'))
+d=(b**c)-(4*a*c)
+sol1=(-b+cmath.sqrt(d))/(2*a)
+sol2=(-b+cmath.sqrt(d))/(2*a)
+print(sol1,sol2)
